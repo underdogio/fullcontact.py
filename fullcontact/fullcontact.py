@@ -13,6 +13,7 @@ class FullContact(object):
         self.base_url = 'https://api.fullcontact.com/v2/'
         self.get_endpoints = {
             'person': 'person.json',
+            'company': 'company/lookup.json',
             'disposable': 'email/disposable.json',
             'name_normalizer': 'name/normalizer.json',
             'name_deducer': 'name/deducer.json',
